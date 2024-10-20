@@ -1,7 +1,7 @@
 ###
 # A program that prints your initials
 #
-name = 'George'
-surname = 'Smith'
+name = 'Vladyslav'
+surname = 'Kondrat'
 print(name[0])
 print(surname[0])
