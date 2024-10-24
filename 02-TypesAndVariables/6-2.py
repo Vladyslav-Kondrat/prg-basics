@@ -3,5 +3,4 @@
 #
 name = 'Vladyslav'
 surname = 'Kondrat'
-print(name[0])
-print(surname[0])
+print(name[0] + surname [0])
