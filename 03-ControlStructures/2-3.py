@@ -15,5 +15,5 @@ elif driving_mode == 'M':
 elif driving_mode == 'E':
     fuel_consumption = 6
 
-total_consumption =
-print('Total fuel consumption over a distance of {distance} km in driving mode {driving_mode} is {total_consumption} liters')
+total_consumption = distance / fuel_consumption
+print(f'Total fuel consumption over a distance of {distance} km in driving mode {driving_mode} is {total_consumption} liters')
