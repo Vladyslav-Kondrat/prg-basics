@@ -6,5 +6,8 @@ import math
 square_root = math.sqrt(7)
 print('A square root of 7 is', square_root)
 
-...
-...
+ln = math.log(5)
+print(ln)
+
+sin = math.sin(90)
+print(sin)
