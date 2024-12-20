@@ -9,6 +9,7 @@ def change(matrix):
         matrix[value][value] = 1
     return matrix
 
+
 modif_matrix = change(matrix)
-for item in :
-    print(modif_matrix)
+for row in modif_matrix:
+    print(row)

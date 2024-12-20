@@ -18,12 +18,20 @@ def weekday(n):
 # Returns a string with day meal names
 # separated by comma
 def day_meal_plan(meal_plan, day_number):
-    for day_number in range(1, 8):
-      day_name = weekday(day_number)
-      return(day_name, ":", meal_plan)
+   day_name = weekday(day_number)
+   day_meals_array = meal_plan[day_number-1]
+   delimeter = ", "
+   day_meal_str = delimeter.join(day_meals_array)
+   result = str(day_name) + ": " + day_meal_str
+   return result
+   #return str(weekday(day_number)) + " : " + ", ".join(meal_plan[day_number-1])   
+
+for day_number in range(1, 8):
+   print(day_meal_plan(meal_plan, day_number))
+
+    
 
 
         
 
 # Prints weekly meal plan
-print(day_meal_plan(meal_plan,))
