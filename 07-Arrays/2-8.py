@@ -4,6 +4,7 @@ computer_games = [
    "Elden Ring", "Apex Legends", "Call of Duty: Warzone"
 ]
 #.sort()
-computer_games.sort()
+sorted = computer_games.sort()
 
 while 
+   

@@ -8,14 +8,19 @@ class SocialMediaProfile:
         print(f"{self.username} added a new post: {content}")
 
     def display_timeline(self):
-        return
-
-
-
-
+        print(self.username)
+        print()
+        #print(self.posts)
+        for item in self.posts:
+            print(item)
 
 
 def main():
-    posts = []
     john_doe = SocialMediaProfile("John Doe")
-    john_doe.add_post()
+    john_doe.add_post("Hello, world!")
+    john_doe.add_post("Had a great day at the park!")
+    john_doe.add_post("What's up, Natalie? How are you?")
+    john_doe.display_timeline()
+
+if __name__ == "__main__":
+    main()

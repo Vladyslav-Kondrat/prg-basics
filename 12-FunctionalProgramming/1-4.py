@@ -1,0 +1,1 @@
+print((lambda x, y: x * y)(35, 3.6))
