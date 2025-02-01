@@ -32,5 +32,5 @@ print('Utilities:', {coloumn_sum[2]})
 # print('Week 4:', {week_sum[3]})
 # print('---------------')
 # print('TOTAL:', {total_sum} )
-for i in range[0, len(week_sum)-1]:
+for i in range(0, len(week_sum)-1):
   print("week", {i+1},":",{week_sum[i]})
